@@ -15,9 +15,10 @@ const Counter = () => {
     
     return (
         <div>
-            <button onClick={Substracting}>Substract</button>
+            <p>------------ practic-1----------------</p>
             <h4>Counter: {count}</h4>
             <button onClick={Adding}>Add</button>
+            <button onClick={Substracting}>Substract</button>
         </div>
     );
 };
